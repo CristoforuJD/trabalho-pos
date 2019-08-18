@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
         $this->call(ProjetoTableSeeder::class);
         $this->call(TipoRecebivelTableSeeder::class);
         $this->call(UtilizacaoDeRecursoTableSeeder::class);
+        $this->call(BorderoTableSeeder::class);
     }
 }
